@@ -1,0 +1,34 @@
+(.devops) ubuntu@ip-172-31-2-160:~/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
+pod/udacity-microservices created
+NAME                    READY   STATUS              RESTARTS   AGE
+udacity-microservices   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+Error from server (BadRequest): container "udacity-microservices" in pod "udacity-microservices" is waiting to start: ContainerCreating
+(.devops) ubuntu@ip-172-31-2-160:~/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacity-microservices" already exists
+NAME                    READY   STATUS    RESTARTS   AGE
+udacity-microservices   1/1     Running   0          101s
+Unable to listen on port 8000: Listeners failed to create with the following errors: [unable to create listener: Error listen tcp4 127.0.0.1:8000: bind: address already in use unable to create listener: Error listen tcp6 [::1]:8000: bind: address already in use]
+error: unable to listen on any of the requested ports: [{8000 80}]
+ * Serving Flask app 'app'
+ * Debug mode: on
+/usr/local/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:34: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/usr/local/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:34: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.244.0.4:80
+Press CTRL+C to quit
+ * Restarting with stat
+/usr/local/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:34: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+/usr/local/lib/python3.7/site-packages/sklearn/ensemble/gradient_boosting.py:34: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from ._gradient_boosting import predict_stages
+ * Debugger is active!
+ * Debugger PIN: 609-246-390
