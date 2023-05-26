@@ -1,4 +1,6 @@
-<include a CircleCI status badge, here>
+<img src="https://circleci.com/circleci-logo-stacked-fb.png" alt="drawing" width="100"/>
+
+[![CircleCI](https://app.circleci.com/pipelines/github/dbh92/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/dbh92/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
