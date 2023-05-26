@@ -1,6 +1,6 @@
 <img src="https://circleci.com/circleci-logo-stacked-fb.png" alt="drawing" width="100"/>
 
-[![CircleCI](https://app.circleci.com/pipelines/github/dbh92/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/dbh92/project-ml-microservice-kubernetes)
+[![CircleCI](https://circleci.com/gh/aciddude/udacity_project_4.svg?style=svg)](https://app.circleci.com/pipelines/github/dbh92/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
