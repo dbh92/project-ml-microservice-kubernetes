@@ -1,13 +1,7 @@
 (.devops) ubuntu@ip-172-31-2-160:~/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
-pod/udacity-microservices created
-NAME                    READY   STATUS              RESTARTS   AGE
-udacity-microservices   0/1     ContainerCreating   0          0s
-error: unable to forward port because pod is not running. Current status=Pending
-Error from server (BadRequest): container "udacity-microservices" in pod "udacity-microservices" is waiting to start: ContainerCreating
-(.devops) ubuntu@ip-172-31-2-160:~/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
 Error from server (AlreadyExists): pods "udacity-microservices" already exists
 NAME                    READY   STATUS    RESTARTS   AGE
-udacity-microservices   1/1     Running   0          101s
+udacity-microservices   1/1     Running   0          56s
 Unable to listen on port 8000: Listeners failed to create with the following errors: [unable to create listener: Error listen tcp4 127.0.0.1:8000: bind: address already in use unable to create listener: Error listen tcp6 [::1]:8000: bind: address already in use]
 error: unable to listen on any of the requested ports: [{8000 80}]
  * Serving Flask app 'app'
@@ -31,4 +25,11 @@ Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdo
 Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
   from ._gradient_boosting import predict_stages
  * Debugger is active!
- * Debugger PIN: 609-246-390
+ * Debugger PIN: 242-229-433
+(.devops) ubuntu@ip-172-31-2-160:~/DevOps_Microservices/project-ml-microservice-kubernetes$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
